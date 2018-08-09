@@ -30,7 +30,7 @@ repositories {
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
-
+    compile("io.dropwizard.metrics:metrics-core:3.1.5")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
